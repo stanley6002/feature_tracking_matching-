@@ -6,17 +6,16 @@
 //  Copyright 2015 __MyCompanyName__. All rights reserved.
 //
 
-#include <cv.h>
-#include <cxmisc.h>
-#include <cxcore.h>
-#include <highgui.h>
-#include <cvaux.h>
-#include <cxmisc.h>
+#include "opencv/cv.h"
+#include "opencv/cxmisc.h"
+#include "opencv/cxcore.h"
+#include "opencv/highgui.h"
+#include "opencv/cvaux.h"
+#include "opencv/cxmisc.h"
 #include <iostream>
 #include <math.h>
-#include <features2d/features2d.hpp>
-#include <nonfree/nonfree.hpp>
-
+#include "opencv2/features2d/features2d.hpp"
+#include "opencv2/nonfree/nonfree.hpp"
 
 class VideoProcessing
 {
